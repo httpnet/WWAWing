@@ -1,0 +1,14 @@
+{
+  "name": "wwa_debugger",
+  "version": "1.0.0",
+  "description": "WWA Debugger by Node.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server ../ -o"
+  },
+  "author": "Aruneko",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
