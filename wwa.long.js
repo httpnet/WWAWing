@@ -61,6 +61,9 @@ var wwa_input;
         KeyCode[KeyCode["KEY_F6"] = 117] = "KEY_F6";
         KeyCode[KeyCode["KEY_F7"] = 118] = "KEY_F7";
         KeyCode[KeyCode["KEY_F8"] = 119] = "KEY_F8";
+        KeyCode[KeyCode["KEY_F9"] = 120] = "KEY_F9";
+        KeyCode[KeyCode["KEY_F10"] = 121] = "KEY_F10";
+        KeyCode[KeyCode["KEY_F11"] = 122] = "KEY_F11";
         KeyCode[KeyCode["KEY_F12"] = 123] = "KEY_F12";
     })(KeyCode = wwa_input.KeyCode || (wwa_input.KeyCode = {}));
     var KeyStore = (function () {
@@ -3606,9 +3609,13 @@ var wwa_main;
                                 e.keyCode === KeyCode.KEY_F2 ||
                                 e.keyCode === KeyCode.KEY_F3 ||
                                 e.keyCode === KeyCode.KEY_F4 ||
+                                e.keyCode === KeyCode.KEY_F5 ||
                                 e.keyCode === KeyCode.KEY_F6 ||
                                 e.keyCode === KeyCode.KEY_F7 ||
                                 e.keyCode === KeyCode.KEY_F8 ||
+                                e.keyCode === KeyCode.KEY_F9 ||
+                                e.keyCode === KeyCode.KEY_F10 ||
+                                e.keyCode === KeyCode.KEY_F11 ||
                                 e.keyCode === KeyCode.KEY_F12 ||
                                 e.keyCode === KeyCode.KEY_SPACE) {
                                 e.preventDefault();
@@ -3623,6 +3630,18 @@ var wwa_main;
                             e.keyCode === KeyCode.KEY_SHIFT ||
                             e.keyCode === KeyCode.KEY_ENTER ||
                             e.keyCode === KeyCode.KEY_ESC ||
+                            e.keyCode === KeyCode.KEY_F1 ||
+                            e.keyCode === KeyCode.KEY_F2 ||
+                            e.keyCode === KeyCode.KEY_F3 ||
+                            e.keyCode === KeyCode.KEY_F4 ||
+                            e.keyCode === KeyCode.KEY_F5 ||
+                            e.keyCode === KeyCode.KEY_F6 ||
+                            e.keyCode === KeyCode.KEY_F7 ||
+                            e.keyCode === KeyCode.KEY_F8 ||
+                            e.keyCode === KeyCode.KEY_F9 ||
+                            e.keyCode === KeyCode.KEY_F10 ||
+                            e.keyCode === KeyCode.KEY_F11 ||
+                            e.keyCode === KeyCode.KEY_F12 ||
                             e.keyCode === KeyCode.KEY_SPACE) {
                             e.preventDefault();
                         }
@@ -3661,9 +3680,13 @@ var wwa_main;
                         e.keyCode === KeyCode.KEY_F1 ||
                         e.keyCode === KeyCode.KEY_F3 ||
                         e.keyCode === KeyCode.KEY_F4 ||
+                        e.keyCode === KeyCode.KEY_F5 ||
                         e.keyCode === KeyCode.KEY_F6 ||
                         e.keyCode === KeyCode.KEY_F7 ||
                         e.keyCode === KeyCode.KEY_F8 ||
+                        e.keyCode === KeyCode.KEY_F9 ||
+                        e.keyCode === KeyCode.KEY_F10 ||
+                        e.keyCode === KeyCode.KEY_F11 ||
                         e.keyCode === KeyCode.KEY_F12 ||
                         e.keyCode === KeyCode.KEY_SPACE) {
                         if (!_this._player.isWaitingMessage() && !_this._player.isWaitingPasswordWindow()) {

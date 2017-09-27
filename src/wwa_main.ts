@@ -332,9 +332,13 @@ module wwa_main {
                             e.keyCode === KeyCode.KEY_F2 ||
                             e.keyCode === KeyCode.KEY_F3 ||
                             e.keyCode === KeyCode.KEY_F4 ||
+                            e.keyCode === KeyCode.KEY_F5 ||
                             e.keyCode === KeyCode.KEY_F6 ||
                             e.keyCode === KeyCode.KEY_F7 ||
                             e.keyCode === KeyCode.KEY_F8 ||
+                            e.keyCode === KeyCode.KEY_F9 ||
+                            e.keyCode === KeyCode.KEY_F10 ||
+                            e.keyCode === KeyCode.KEY_F11 ||
                             e.keyCode === KeyCode.KEY_F12 ||
                             e.keyCode === KeyCode.KEY_SPACE) {
                               e.preventDefault();
@@ -348,6 +352,18 @@ module wwa_main {
                             e.keyCode === KeyCode.KEY_SHIFT ||
                             e.keyCode === KeyCode.KEY_ENTER ||
                             e.keyCode === KeyCode.KEY_ESC ||
+                            e.keyCode === KeyCode.KEY_F1 ||
+                            e.keyCode === KeyCode.KEY_F2 ||
+                            e.keyCode === KeyCode.KEY_F3 ||
+                            e.keyCode === KeyCode.KEY_F4 ||
+                            e.keyCode === KeyCode.KEY_F5 ||
+                            e.keyCode === KeyCode.KEY_F6 ||
+                            e.keyCode === KeyCode.KEY_F7 ||
+                            e.keyCode === KeyCode.KEY_F8 ||
+                            e.keyCode === KeyCode.KEY_F9 ||
+                            e.keyCode === KeyCode.KEY_F10 ||
+                            e.keyCode === KeyCode.KEY_F11 ||
+                            e.keyCode === KeyCode.KEY_F12 ||
                             e.keyCode === KeyCode.KEY_SPACE) {
                               e.preventDefault();
                             }
@@ -383,9 +399,13 @@ module wwa_main {
                         e.keyCode === KeyCode.KEY_F1 ||
                         e.keyCode === KeyCode.KEY_F3 ||
                         e.keyCode === KeyCode.KEY_F4 ||
+                        e.keyCode === KeyCode.KEY_F5 ||
                         e.keyCode === KeyCode.KEY_F6 ||
                         e.keyCode === KeyCode.KEY_F7 ||
                         e.keyCode === KeyCode.KEY_F8 ||
+                        e.keyCode === KeyCode.KEY_F9 ||
+                        e.keyCode === KeyCode.KEY_F10 ||
+                        e.keyCode === KeyCode.KEY_F11 ||
                         e.keyCode === KeyCode.KEY_F12 ||
                         e.keyCode === KeyCode.KEY_SPACE) {
                         if (!this._player.isWaitingMessage() && !this._player.isWaitingPasswordWindow()) {
